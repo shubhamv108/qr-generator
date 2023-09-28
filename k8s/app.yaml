@@ -17,6 +17,8 @@ spec:
   selector:
     matchLabels:
       app: server-sent-events
+  updateStrategy:
+    type: RollingUpdate
   template:
     metadata:
       labels:

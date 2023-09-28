@@ -1,13 +1,13 @@
-package code.shubham.serversentevents;
+package code.shubham.qr;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServerSentEventsApplication {
+public class QRGeneratorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServerSentEventsApplication.class, args);
+		SpringApplication.run(QRGeneratorApplication.class, args);
 	}
 
 }
