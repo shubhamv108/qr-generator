@@ -9,8 +9,10 @@ import java.awt.image.BufferedImage;
 
 @Configuration
 public class ConfigBeans {
-    @Bean
-    public HttpMessageConverter<BufferedImage> createImageHttpMessageConverter() {
-        return new BufferedImageHttpMessageConverter();
-    }
+
+	@Bean
+	public HttpMessageConverter<BufferedImage> createImageHttpMessageConverter() {
+		return new BufferedImageHttpMessageConverter();
+	}
+
 }
